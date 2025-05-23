@@ -1,320 +1,281 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Equipes</title>
-  <style>
-    body {
-      font-family: Tahoma, sans-serif;
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipes - Fórmula 1 Wiki</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="equipes.css" />
+    <link rel="stylesheet" href="equipes-tablet.css" />
+    <link rel="stylesheet" href="equipes-mobile.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="imagens/Fotos/formula-1-logo-7.png"
+          alt="Logo da Fórmula 1"
+          class="logo"
+        />
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="equipes.html" class="active">Equipes</a>
+          <a href="pilotos.html">Pilotos</a>
+          <a href="circuitos.html">Circuitos</a>
+          <a href="newsletter.html">Newsletter</a>
+        </nav>
+      </div>
+    </header>
 
-    header {
-      background-color: #fff;
-      border-bottom: 3px solid #ff0000;
-    }
+    <main class="container">
+      <div class="breadcrumb">Home &gt; Equipes</div>
 
-    nav {
-      max-width: 1000px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 0;
-    }
-
-    nav img {
-      width: 200px;
-    }
-
-    nav a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #ff0000;
-      padding: 8px 12px;
-    }
-
-    nav a.active {
-      background-color: #ff0000;
-      color: #fff;
-      border-radius: 4px;
-    }
-
-    .breadcrumb {
-      background-color: #ff0000;
-      color: #fff;
-      font-family: Consolas, monospace;
-      padding: 4px 10px;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 20px 0;
-    }
-
-    h1 {
-      text-align: center;
-      color: #ff0000;
-    }
-
-    .team-row {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-    }
-
-    .team-card {
-      flex: 1;
-      background-color: #f1f1f1;
-      padding: 15px;
-      border-radius: 8px;
-    }
-
-    .team-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .team-header img {
-      width: 80px;
-    }
-
-    .team-drivers {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 10px;
-    }
-
-    .team-drivers img {
-      width: 60px;
-      border-radius: 50%;
-    }
-
-    .team-drivers b {
-      display: block;
-      margin-top: 5px;
-      font-size: 14px;
-    }
-
-    .car-image {
-      margin-top: 15px;
-      text-align: center;
-    }
-
-    .car-image img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    /* Cores específicas por equipe */
-    .mclaren h2 { color: #ff8000; }
-    .mercedes h2 { color: #808080; }
-    .redbull h2 { color: #0000ff; }
-    .williams h2 { color: #3070ff; }
-    .ferrari h2 { color: #e60000; }
-  </style>
-</head>
-<body>
-
-  <header>
-    <nav>
-      <a href="index.html"><img src="imagens/Fotos/formula-1-logo-7.png" alt="Logo Fórmula 1"></a>
-      <a href="equipes.html" class="active">Equipes</a>
-      <a href="pilotos.html">Pilotos</a>
-      <a href="circuitos.html">Circuitos</a>
-      <a href="newsletter.html">Newsletter</a>
-    </nav>
-    <div class="breadcrumb">Home > Equipes</div>
-  </header>
-
-  <main>
-    <h1>EQUIPES</h1>
-
-    <div class="team-row">
-      <!-- McLaren -->
-      <section class="team-card mclaren">
-        <div class="team-header">
-          <img src="imagens/equipes/mclaren-logo.avif" alt="McLaren" />
-          <h2>McLaren</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/piastri.png" alt="Oscar Piastri" />
-            <b>Oscar <span style="color:black;">PIASTRI</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/norris.png" alt="Lando Norris" />
-            <b>Lando <span style="color:black;">NORRIS</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/mclaren.avif" alt="Carro McLaren" />
-        </div>
+      <section class="page-intro">
+        <h1>EQUIPES</h1>
+        <p>Conheça as escuderias que fazem a história da Fórmula 1!</p>
       </section>
 
-      <!-- Mercedes -->
-      <section class="team-card mercedes">
-        <div class="team-header">
-          <img src="imagens/equipes/mercedes-logo.avif" alt="Mercedes" />
-          <h2>Mercedes</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/george-russell-mercedes.jpg" alt="George Russell" />
-            <b>George <span style="color:black;">RUSSELL</span></b>
+      <section class="teams-grid">
+        <div class="team-card mclaren">
+          <div class="team-header">
+            <img src="imagens/equipes/mclaren-logo.avif" alt="McLaren Logo" />
+            <h2>McLaren</h2>
           </div>
-          <div>
-            <img src="imagens/Pilotos/antonelli.jpg" alt="Kimi Antonelli" />
-            <b>Kimi <span style="color:black;">ANTONELLI</span></b>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/piastri.png" alt="Oscar Piastri" />
+              <b>Oscar <span>PIASTRI</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/norris.png" alt="Lando Norris" />
+              <b>Lando <span>NORRIS</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/mclaren.avif" alt="Carro McLaren" />
           </div>
         </div>
-        <div class="car-image">
-          <img src="imagens/carros/mercedes.avif" alt="Carro Mercedes" />
+
+        <div class="team-card mercedes">
+          <div class="team-header">
+            <img src="imagens/equipes/mercedes-logo.avif" alt="Mercedes Logo" />
+            <h2>Mercedes</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img
+                src="imagens/Pilotos/george-russell-mercedes.jpg"
+                alt="George Russell"
+              />
+              <b>George <span>RUSSELL</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/antonelli.jpg" alt="Kimi Antonelli" />
+              <b>Kimi <span>ANTONELLI</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/mercedes.avif" alt="Carro Mercedes" />
+          </div>
+        </div>
+
+        <div class="team-card redbull">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/red-bull-racing-logo.avif"
+              alt="Red Bull Logo"
+            />
+            <h2>Red Bull</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img
+                src="imagens/Pilotos/max-verstappen-red-bull-racing.jpg"
+                alt="Max Verstappen"
+              />
+              <b>Max <span>VERSTAPPEN</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/liamlawson.jpg" alt="Liam Lawson" />
+              <b>Liam <span>LAWSON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/red-bull-racing.avif"
+              alt="Carro Red Bull"
+            />
+          </div>
+        </div>
+
+        <div class="team-card williams">
+          <div class="team-header">
+            <img src="imagens/equipes/williams-logo.avif" alt="Williams Logo" />
+            <h2>Williams</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/sainz.png" alt="Carlos Sainz" />
+              <b>Carlos <span>SAINZ</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/albon.png" alt="Alexander Albon" />
+              <b>Alexander <span>ALBON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/williams.avif" alt="Carro Williams" />
+          </div>
+        </div>
+
+        <div class="team-card ferrari">
+          <div class="team-header">
+            <img src="imagens/equipes/ferrari-logo.avif" alt="Ferrari Logo" />
+            <h2>Ferrari</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/leclerc.png" alt="Charles Leclerc" />
+              <b>Charles <span>LECLERC</span></b>
+            </div>
+            <div>
+              <img
+                src="imagens/Pilotos/lhamilton_2025.png"
+                alt="Lewis Hamilton"
+              />
+              <b>Lewis <span>HAMILTON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/ferrari.avif" alt="Carro Ferrari" />
+          </div>
+        </div>
+
+        <div class="team-card haas">
+          <div class="team-header">
+            <img src="imagens/equipes/haas-logo.avif" alt="Haas Logo" />
+            <h2>Haas</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/ocon.png" alt="Esteban Ocon" />
+              <b>Esteban <span>OCON</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/bearman.png" alt="Oliver Bearman" />
+              <b>Oliver <span>BEARMAN</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/haas.avif" alt="Carro Haas" />
+          </div>
+        </div>
+
+        <div class="team-card aston-martin">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/aston-martin-logo.avif"
+              alt="Aston Martin Logo"
+            />
+            <h2>Aston Martin</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/stroll.png" alt="Lance Stroll" />
+              <b>Lance <span>STROLL</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/alonso.png" alt="Fernando Alonso" />
+              <b>Fernando <span>ALONSO</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/aston-martin.avif"
+              alt="Carro Aston Martin"
+            />
+          </div>
+        </div>
+
+        <div class="team-card kick-sauber">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/kick-sauber-logo.avif"
+              alt="Kick Sauber Logo"
+            />
+            <h2>Kick Sauber</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/hulkenberg.png" alt="Nico Hulkenberg" />
+              <b>Nico <span>HULKENBERG</span></b>
+            </div>
+            <div>
+              <img
+                src="imagens/Pilotos/bortoleto.png"
+                alt="Gabriel Bortoleto"
+              />
+              <b>Gabriel <span>BORTOLETO</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/kick-sauber.avif"
+              alt="Carro Kick Sauber"
+            />
+          </div>
+        </div>
+
+        <div class="team-card racing-bulls">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/racing-bulls-logo.avif"
+              alt="Racing Bulls Logo"
+            />
+            <h2>Racing Bulls</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/tsunoda.png" alt="Yuki Tsunoda" />
+              <b>Yuki <span>TSUNODA</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/hadjar.png" alt="Isack Hadjar" />
+              <b>Isack <span>HADJAR</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/racing-bulls.avif"
+              alt="Carro Racing Bulls"
+            />
+          </div>
+        </div>
+
+        <div class="team-card alpine">
+          <div class="team-header">
+            <img src="imagens/equipes/alpine-logo.avif" alt="Alpine Logo" />
+            <h2>Alpine</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/gasly.png" alt="Pierre Gasly" />
+              <b>Pierre <span>GASLY</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/dohan.png" alt="Jack Doohan" />
+              <b>Jack <span>DOOHAN</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/alpine.avif" alt="Carro Alpine" />
+          </div>
         </div>
       </section>
-    </div>
+    </main>
 
-    <div class="team-row">
-      <!-- Red Bull -->
-      <section class="team-card redbull">
-        <div class="team-header">
-          <img src="imagens/equipes/red-bull-racing-logo.avif" alt="Red Bull" />
-          <h2>Red Bull</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/max-verstappen-red-bull-racing.jpg" alt="Max Verstappen" />
-            <b>Max <span style="color:black;">VERSTAPPEN</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/liamlawson.jpg" alt="Liam Lawson" />
-            <b>Liam <span style="color:black;">LAWSON</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/red-bull-racing.avif" alt="Carro Red Bull" />
-        </div>
-      </section>
-
-      <!-- Williams -->
-      <section class="team-card williams">
-        <div class="team-header">
-          <img src="imagens/equipes/williams-logo.avif" alt="Williams" />
-          <h2>Williams</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/sainz.png" alt="Carlos Sainz" />
-            <b>Carlos <span style="color:black;">SAINZ</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/albon.png" alt="Alexander Albon" />
-            <b>Alexander <span style="color:black;">ALBON</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/williams.avif" alt="Carro Williams" />
-        </div>
-      </section>
-    </div>
-
-    <div class="team-row">
-      <!-- Ferrari -->
-      <section class="team-card ferrari>
-        <div class="team-header">
-          <img src="imagens/equipes/ferrari-logo.avif" alt="Ferrari" />
-          <h2>Ferrari</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/leclerc.png" alt="Charles Leclerc" />
-            <b>Charles <span style="color:black;">LECLERC</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/lhamilton_2025.png" alt="Lewis Hamilton" />
-            <b>Lewis <span style="color:black;">HAMILTON</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/ferrari.avif" alt="Carro Ferrari" />
-        </div>
-      </section>
-
-      <!-- Haas -->
-      <section class="team-card haas">
-        <div class="team-header">
-          <img src="imagens/equipes/haas-logo.avif" alt="Haas" />
-          <h2>Haas</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/ocon.png" alt="Esteban Ocon" />
-            <b>Esteban <span style="color:black;">OCON</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/bearman.png" alt="Oliver Bearman" />
-            <b>Oliver <span style="color:black;">BEARMAN</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/haas.avif" alt="Carro Haas" />
-        </div>
-      </section>
-    </div>
-
-    <div class="team-row">
-      <!-- Red Bull -->
-      <section class="team-card redbull">
-        <div class="team-header">
-          <img src="imagens/equipes/red-bull-racing-logo.avif" alt="Red Bull" />
-          <h2>Red Bull</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/max-verstappen-red-bull-racing.jpg" alt="Max Verstappen" />
-            <b>Max <span style="color:black;">VERSTAPPEN</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/liamlawson.jpg" alt="Liam Lawson" />
-            <b>Liam <span style="color:black;">LAWSON</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/red-bull-racing.avif" alt="Carro Red Bull" />
-        </div>
-      </section>
-
-      <!-- Williams -->
-      <section class="team-card williams">
-        <div class="team-header">
-          <img src="imagens/equipes/williams-logo.avif" alt="Williams" />
-          <h2>Williams</h2>
-        </div>
-        <div class="team-drivers">
-          <div>
-            <img src="imagens/Pilotos/sainz.png" alt="Carlos Sainz" />
-            <b>Carlos <span style="color:black;">SAINZ</span></b>
-          </div>
-          <div>
-            <img src="imagens/Pilotos/albon.png" alt="Alexander Albon" />
-            <b>Alexander <span style="color:black;">ALBON</span></b>
-          </div>
-        </div>
-        <div class="car-image">
-          <img src="imagens/carros/williams.avif" alt="Carro Williams" />
-        </div>
-      </section>
-    </div>
-
-    <!-- Adicione mais equipes aqui, como Ferrari, Aston Martin, etc. -->
-
-  </main>
-
-</body>
+    <footer class="site-footer">
+      <p>&copy; 2025 - Página sobre Fórmula 1 por @dimitrimrs</p>
+    </footer>
+  </body>
 </html>

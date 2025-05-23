@@ -1,0 +1,167 @@
+/* Estilos específicos para a página de Equipes, complementando o index.css */
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: #ff1e1e; /* Cor da F1, replicando o vermelho do index.css */
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistente com body do index.css */
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+/* Introdução da página */
+.page-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-intro h1 {
+  font-size: 2.8rem; /* Consistente com h1.intro do index.css*/
+  color: #d10000; /* Consistente com h1.intro do index.css*/
+  margin-bottom: 10px;
+}
+
+.page-intro p {
+  font-size: 1.2rem; /* Consistente com p.intro do index.css*/
+  color: #555; /* Consistente com p.intro do index.css*/
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Grid de Equipes (semelhante ao cards-grid do index.css)*/
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Adaptado para cards um pouco maiores */
+  gap: 30px; /* Consistente com cards-grid do index.css*/
+  margin-bottom: 60px;
+}
+
+.team-card {
+  background-color: #fff; /* Consistente com .card do index.css*/
+  border: 1px solid #ddd; /* Consistente com .card do index.css*/
+  border-radius: 12px; /* Consistente com .card do index.css*/
+  padding: 20px; /* Consistente com .card do index.css*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Consistente com .card do index.css*/
+  transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transição para sombra no hover */
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card:hover {
+  transform: translateY(-5px); /* Efeito de hover mais pronunciado */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais escura no hover */
+}
+
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee; /* Linha divisória sutil */
+}
+
+.team-header img {
+  width: 90px; /* Tamanho do logo da equipe */
+  height: auto;
+  object-fit: contain; /* Garante que o logo caiba sem cortar */
+}
+
+.team-header h2 {
+  font-size: 1.8rem; /* Tamanho do título da equipe */
+  font-weight: bold;
+  margin: 0;
+}
+
+.team-drivers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Permite que os pilotos se ajustem em telas menores */
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Faz com que os drivers ocupem o espaço restante verticalmente no card */
+}
+
+.team-drivers div {
+  text-align: center;
+  flex-basis: 45%; /* Garante que dois drivers fiquem lado a lado */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-drivers img {
+  width: 70px; /* Tamanho da foto do piloto */
+  height: 70px;
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Garante que a imagem preencha o círculo */
+  border: 2px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.team-drivers img:hover {
+  transform: scale(1.05); /* Pequeno zoom no hover */
+}
+
+.team-drivers b {
+  display: block;
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #333; /* Cor do texto consistente com o body do index.css*/
+  line-height: 1.3;
+}
+
+.team-drivers b span {
+  color: #000; /* Sobrenome em preto */
+  font-weight: normal;
+}
+
+.car-image {
+  margin-top: auto; /* Empurra a imagem do carro para o final do card */
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.car-image img {
+  width: 100%;
+  max-width: 300px; /* Limita o tamanho máximo da imagem do carro para evitar que fique gigante */
+  height: auto;
+  border-radius: 8px; /* Borda arredondada para a imagem do carro */
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Sombra sutil na imagem do carro */
+}
+
+/* Cores específicas por equipe (bordas laterais dos cards e títulos) */
+.mclaren.team-card { border-left-color: #ff8000; }
+.mclaren .team-header h2 { color: #ff8000; }
+
+.mercedes.team-card { border-left-color: #6cd3bf; } /* Cor da Mercedes */
+.mercedes .team-header h2 { color: #6cd3bf; }
+
+.redbull.team-card { border-left-color: #3671c6; } /* Cor da Red Bull */
+.redbull .team-header h2 { color: #3671c6; }
+
+.williams.team-card { border-left-color: #3070ff; }
+.williams .team-header h2 { color: #3070ff; }
+
+.ferrari.team-card { border-left-color: #d10000; } /* Cor da Ferrari, consistente com a cor principal do site*/
+.ferrari .team-header h2 { color: #d10000; } /* Cor da Ferrari, consistente com a cor principal do site*/
+
+.haas.team-card { border-left-color: #b6babd; } /* Cor da Haas */
+.haas .team-header h2 { color: #b6babd; }
+
+.aston-martin.team-card { border-left-color: #006f62; } /* Cor da Aston Martin */
+.aston-martin .team-header h2 { color: #006f62; }
+
+.kick-sauber.team-card { border-left-color: #52e252; } /* Cor da Kick Sauber */
+.kick-sauber .team-header h2 { color: #52e252; }
+
+.racing-bulls.team-card { border-left-color: #6692ff; } /* Cor da Racing Bulls */
+.racing-bulls .team-header h2 { color: #6692ff; }
+
+.alpine.team-card { border-left-color: #2293d1; } /* Cor da Alpine */
+.alpine .team-header h2 { color: #2293d1; }
