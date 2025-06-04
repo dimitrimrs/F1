@@ -1,0 +1,34 @@
+@media (max-width: 900px) {
+  /* ====== HEADER ====== */
+  .site-header .logo {
+    width: 150px; /* Ajuste o tamanho do logo para tablet */
+  }
+
+  .main-nav {
+    gap: 15px; /* Reduz o espaçamento entre os itens de navegação */
+  }
+
+  .main-nav a {
+    font-size: 0.95rem; /* Ajusta o tamanho da fonte dos links */
+  }
+
+  /* ====== INTRO ====== */
+  .intro h1 {
+    font-size: 2.2rem; /* Reduz o tamanho do título principal */
+  }
+
+  /* ====== PILOTS GRID ====== */
+  .pilots-container {
+    margin-bottom: 40px; /* Reduz o espaçamento inferior */
+  }
+
+  .pilots-list {
+    grid-template-columns: 100px 2fr 1.5fr 1fr 0.5fr 1.5fr 0.5fr; /* Ajusta larguras das colunas */
+    gap: 8px; /* Reduz o espaçamento entre células */
+  }
+
+  .pilot-cell {
+    padding: 10px; /* Reduz o padding das células */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte */
+  }
+}

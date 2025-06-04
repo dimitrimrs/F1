@@ -1,10 +1,7 @@
-/* Estilos específicos para a página de Equipes, complementando o index.css */
-
-/* Breadcrumb */
 .breadcrumb {
   background-color: #ff1e1e; /* Cor da F1, replicando o vermelho do index.css */
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistente com body do index.css */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Consistente com body do index.css */
   padding: 8px 15px;
   border-radius: 5px;
   margin-bottom: 30px;
@@ -33,7 +30,10 @@
 /* Grid de Equipes (semelhante ao cards-grid do index.css)*/
 .teams-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Adaptado para cards um pouco maiores */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  ); /* Adaptado para cards um pouco maiores */
   gap: 30px; /* Consistente com cards-grid do index.css*/
   margin-bottom: 60px;
 }
@@ -41,6 +41,7 @@
 .team-card {
   background-color: #fff; /* Consistente com .card do index.css*/
   border: 1px solid #ddd; /* Consistente com .card do index.css*/
+  border-left: 8px solid #ddd;
   border-radius: 12px; /* Consistente com .card do index.css*/
   padding: 20px; /* Consistente com .card do index.css*/
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Consistente com .card do index.css*/
@@ -136,32 +137,72 @@
 }
 
 /* Cores específicas por equipe (bordas laterais dos cards e títulos) */
-.mclaren.team-card { border-left-color: #ff8000; }
-.mclaren .team-header h2 { color: #ff8000; }
+.mclaren.team-card {
+  border-left-color: #ff8000;
+}
+.mclaren .team-header h2 {
+  color: #ff8000;
+}
 
-.mercedes.team-card { border-left-color: #6cd3bf; } /* Cor da Mercedes */
-.mercedes .team-header h2 { color: #6cd3bf; }
+.mercedes.team-card {
+  border-left-color: #6cd3bf;
+} /* Cor da Mercedes */
+.mercedes .team-header h2 {
+  color: #6cd3bf;
+}
 
-.redbull.team-card { border-left-color: #3671c6; } /* Cor da Red Bull */
-.redbull .team-header h2 { color: #3671c6; }
+.redbull.team-card {
+  border-left-color: #3671c6;
+} /* Cor da Red Bull */
+.redbull .team-header h2 {
+  color: #3671c6;
+}
 
-.williams.team-card { border-left-color: #3070ff; }
-.williams .team-header h2 { color: #3070ff; }
+.williams.team-card {
+  border-left-color: #3070ff;
+}
+.williams .team-header h2 {
+  color: #3070ff;
+}
 
-.ferrari.team-card { border-left-color: #d10000; } /* Cor da Ferrari, consistente com a cor principal do site*/
-.ferrari .team-header h2 { color: #d10000; } /* Cor da Ferrari, consistente com a cor principal do site*/
+.ferrari.team-card {
+  border-left-color: #d10000;
+} /* Cor da Ferrari, consistente com a cor principal do site*/
+.ferrari .team-header h2 {
+  color: #d10000;
+} /* Cor da Ferrari, consistente com a cor principal do site*/
 
-.haas.team-card { border-left-color: #b6babd; } /* Cor da Haas */
-.haas .team-header h2 { color: #b6babd; }
+.haas.team-card {
+  border-left-color: #b6babd;
+} /* Cor da Haas */
+.haas .team-header h2 {
+  color: #b6babd;
+}
 
-.aston-martin.team-card { border-left-color: #006f62; } /* Cor da Aston Martin */
-.aston-martin .team-header h2 { color: #006f62; }
+.aston-martin.team-card {
+  border-left-color: #006f62;
+} /* Cor da Aston Martin */
+.aston-martin .team-header h2 {
+  color: #006f62;
+}
 
-.kick-sauber.team-card { border-left-color: #52e252; } /* Cor da Kick Sauber */
-.kick-sauber .team-header h2 { color: #52e252; }
+.kick-sauber.team-card {
+  border-left-color: #52e252;
+} /* Cor da Kick Sauber */
+.kick-sauber .team-header h2 {
+  color: #52e252;
+}
 
-.racing-bulls.team-card { border-left-color: #6692ff; } /* Cor da Racing Bulls */
-.racing-bulls .team-header h2 { color: #6692ff; }
+.racing-bulls.team-card {
+  border-left-color: #6692ff;
+} /* Cor da Racing Bulls */
+.racing-bulls .team-header h2 {
+  color: #6692ff;
+}
 
-.alpine.team-card { border-left-color: #2293d1; } /* Cor da Alpine */
-.alpine .team-header h2 { color: #2293d1; }
+.alpine.team-card {
+  border-left-color: #2293d1;
+} /* Cor da Alpine */
+.alpine .team-header h2 {
+  color: #2293d1;
+}

@@ -1,78 +1,76 @@
 @media (max-width: 600px) {
-/* Estilos para telas de celular (largura máxima de 600px) */
-  /* Ajustes no container principal (já deve ser feito no index-phone.css, mas garantindo) */
   .container {
-      padding: 15px; /* Reduz o padding para telas menores */
+    padding: 3vw; /* Reduz o padding para telas menores */
   }
 
   /* Breadcrumb */
   .breadcrumb {
-      font-size: 0.8rem;
-      padding: 6px 10px;
+    font-size: 0.8rem;
+    padding: 6px 10px;
   }
 
   /* Introdução da página */
   .page-intro h1 {
-      font-size: 2rem; /* Reduz o tamanho do título principal */
+    font-size: 2rem; /* Reduz o tamanho do título principal */
   }
 
   .page-intro p {
-      font-size: 1rem; /* Reduz o tamanho do parágrafo */
+    font-size: 1rem; /* Reduz o tamanho do parágrafo */
   }
 
   /* Grid de Equipes: uma coluna por padrão em telas pequenas */
   .teams-grid {
-      grid-template-columns: 1fr; /* Força uma única coluna */
-      gap: 20px; /* Reduz ainda mais o espaçamento */
+    grid-template-columns: 1fr; /* Força uma única coluna */
+    gap: 20px; /* Reduz ainda mais o espaçamento */
   }
 
   /* Ajustes no card da equipe */
   .team-card {
-      padding: 15px; /* Mais redução no padding */
-      border-left: 5px solid; /* Aumenta um pouco a espessura da borda lateral para destaque */
+    padding: 15px; /* Mais redução no padding */
+    border-left: 5px solid; /* Aumenta um pouco a espessura da borda lateral para destaque */
   }
 
   .team-header {
-      flex-direction: column; /* Empilha logo e título verticalmente */
-      text-align: center;
-      gap: 10px;
+    flex-direction: column; /* Empilha logo e título verticalmente */
+    text-align: center;
+    gap: 10px;
   }
 
   .team-header img {
-      width: 70px; /* Ajusta o tamanho do logo */
+    width: 70px; /* Ajusta o tamanho do logo */
   }
 
   .team-header h2 {
-      font-size: 1.5rem; /* Ajusta o tamanho do título */
+    font-size: 1.5rem; /* Ajusta o tamanho do título */
   }
 
   .team-drivers {
-      flex-direction: column; /* Empilha os pilotos verticalmente */
-      gap: 10px;
-      margin-top: 10px;
-      margin-bottom: 15px;
+    flex-direction: column; /* Empilha os pilotos verticalmente */
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 
   .team-drivers div {
-      flex-basis: auto; /* Remove a largura fixa para flexibilidade */
+    flex-basis: auto; /* Remove a largura fixa para flexibilidade */
   }
 
   .team-drivers img {
-      width: 50px; /* Reduz ainda mais a foto do piloto */
-      height: 50px;
+    width: 50px; /* Reduz ainda mais a foto do piloto */
+    height: 50px;
   }
 
   .team-drivers b {
-      font-size: 0.85rem; /* Reduz o tamanho da fonte do nome do piloto */
+    font-size: 0.85rem; /* Reduz o tamanho da fonte do nome do piloto */
   }
 
   .car-image img {
-      max-width: 100%; /* Ocupa 100% da largura disponível no card */
-      border-radius: 5px; /* Borda um pouco menor */
+    max-width: 100%; /* Ocupa 100% da largura disponível no card */
+    border-radius: 5px; /* Borda um pouco menor */
   }
 
   /* Footer: Se precisar de ajustes adicionais, pode colocar aqui */
   .site-footer p {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }

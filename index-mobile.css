@@ -1,22 +1,22 @@
 @media (max-width: 600px) {
   /* ====== CONTAINER ====== */
   .container {
-    padding: 15px; /* Reduz o padding geral para telas menores */
+    padding: 3vw; /* Reduz o padding geral para telas menores */
   }
 
   /* ====== HEADER ====== */
   .site-header .logo {
-    width: 120px; /* Diminui o logo ainda mais */
+    width: 24vw; /* Diminui o logo ainda mais */
   }
 
   .main-nav {
-    flex-direction: column; /* Links de navegação em coluna */
-    gap: 10px; /* Menor espaçamento */
+    flex-direction: line; /* Links de navegação em linha */
+    gap: 2vw; /* Menor espaçamento */
     align-items: center; /* Centraliza os itens */
   }
 
   .main-nav a {
-    font-size: 1rem; /* Ajusta o tamanho da fonte para melhor leitura */
+    font-size: 3.2vw; /* Ajusta o tamanho da fonte para melhor leitura */
   }
 
   /* ====== BANNER ====== */
@@ -26,7 +26,7 @@
 
   /* ====== INTRO ====== */
   .intro h1 {
-    font-size: 2rem; /* Título principal menor para mobile */
+    font-size: 6vw; /* Título principal menor para mobile */
   }
 
   .intro p {

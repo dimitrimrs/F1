@@ -1,0 +1,98 @@
+@media (max-width: 600px) {
+  /* ====== CONTAINER ====== */
+  .container {
+    padding: 3vw; /* Aproximadamente 15px em 500px de viewport */
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  /* ====== HEADER ====== */
+  .site-header .logo {
+    width: 24vw; /* Aproximadamente 120px em 500px de viewport */
+  }
+
+  .main-nav {
+    flex-direction: line; /* Links de navegação em linha */
+    gap: 2vw; /* Aproximadamente 10px em 500px de viewport */
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .main-nav a {
+    font-size: 3.2vw; /* Aproximadamente 1rem (16px) em 500px de viewport */
+  }
+
+  /* ====== INTRO ====== */
+  .intro h1 {
+    font-size: 6vw; /* Aproximadamente 2rem (32px) em 500px de viewport */
+  }
+
+  /* ====== PILOTS GRID ====== */
+  .pilots-container {
+    margin-bottom: 8vw; /* Aproximadamente 40px em 500px de viewport */
+  }
+
+  .pilots-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma única coluna para garantir um piloto por linha */
+    gap: 4vw; /* Aproximadamente 20px em 500px de viewport */
+    padding: 2vw; /* Aproximadamente 10px em 500px de viewport */
+  }
+
+  .pilots-list .header {
+    display: none; /* Oculta o cabeçalho, já que os labels são gerados dinamicamente */
+  }
+
+  .pilots-list .pilot {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 8px solid #d10000;
+    border-radius: 12px;
+    padding: 3vw; /* Aproximadamente 15px em 500px de viewport */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .pilots-list .even {
+    background-color: #f0f0f0; /* Fundo alternado para cartões pares */
+  }
+
+  .pilot-cell {
+    padding: 1vw 0; /* Aproximadamente 5px em 500px de viewport */
+    font-size: 3vw; /* Aproximadamente 0.9375rem (15px) em 500px de viewport */
+    overflow-wrap: break-word; /* Garante que textos longos sejam quebrados */
+  }
+
+  .pilot-cell::before {
+    content: attr(data-name) ": "; /* Adiciona label com base no data-name */
+    font-weight: bold;
+    color: #d10000;
+  }
+
+  .pilot-cell[data-name="Foto"]::before {
+    content: "FOTO: "; /* Label específico para a foto */
+    font-weight: bold;
+    color: #d10000;
+  }
+
+  .pilot-cell[data-name="Nome do Piloto"] {
+    font-weight: bold;
+    color: #d10000; /* Nome em negrito e vermelho */
+  }
+
+  .pilot-cell img {
+    width: 20vw; /* Aproximadamente 100px em 500px de viewport */
+    border-radius: 1.6vw; /* Aproximadamente 8px em 500px de viewport */
+  }
+
+  /* ====== FOOTER ====== */
+  .site-footer {
+    padding: 3vw 0; /* Aproximadamente 15px em 500
+px de viewport */
+    font-size: 2.4vw; /* Aproximadamente 0.8rem (12px) em 500px de viewport */
+  }
+}

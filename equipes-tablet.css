@@ -2,33 +2,36 @@
   /* Estilos para telas de tablet (largura máxima de 900px) */
   /* Ajustes no grid para que as equipes fiquem em 2 colunas */
   .teams-grid {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 colunas, se houver espaço */
-      gap: 25px; /* Reduz um pouco o espaçamento */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    ); /* 2 colunas, se houver espaço */
+    gap: 25px; /* Reduz um pouco o espaçamento */
   }
 
   /* Ajustes no card da equipe */
   .team-card {
-      padding: 18px; /* Diminui um pouco o padding interno */
+    padding: 18px; /* Diminui um pouco o padding interno */
   }
 
   .team-header img {
-      width: 80px; /* Reduz um pouco o logo da equipe */
+    width: 80px; /* Reduz um pouco o logo da equipe */
   }
 
   .team-header h2 {
-      font-size: 1.6rem; /* Ajusta o tamanho do título da equipe */
+    font-size: 1.6rem; /* Ajusta o tamanho do título da equipe */
   }
 
   .team-drivers img {
-      width: 60px; /* Reduz a foto do piloto */
-      height: 60px;
+    width: 60px; /* Reduz a foto do piloto */
+    height: 60px;
   }
 
   .team-drivers b {
-      font-size: 0.9rem; /* Reduz o tamanho da fonte do nome do piloto */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte do nome do piloto */
   }
 
   .car-image img {
-      max-width: 250px; /* Limita o tamanho máximo do carro para tablets */
+    max-width: 250px; /* Limita o tamanho máximo do carro para tablets */
   }
 }

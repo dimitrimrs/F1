@@ -23,19 +23,28 @@
 
   /* ====== GRID DE CARDS ====== */
   .cards-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Ajusta o min-width para cards */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(280px, 1fr)
+    ); /* Ajusta o min-width para cards */
     gap: 20px; /* Reduz o espaçamento entre os cards */
   }
 
   /* ====== GRID DE IMAGENS ====== */
   .images-grid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajusta o min-width para imagens */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(180px, 1fr)
+    ); /* Ajusta o min-width para imagens */
     gap: 15px; /* Reduz o espaçamento entre as imagens */
   }
 
   /* ====== INFORMAÇÕES ====== */
   .info-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Ajusta o min-width para cards de informação */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(280px, 1fr)
+    ); /* Ajusta o min-width para cards de informação */
     gap: 20px; /* Reduz o espaçamento entre os cards de informação */
   }
 }
