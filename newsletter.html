@@ -1,124 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Newsletter F1</title>
-</head>
-<body>
-<font face="Tahoma">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter - Fórmula 1 Wiki</title>
+    <link rel="stylesheet" href="newsletter.css" />
+    <link rel="stylesheet" href="newsletter-tablet.css" />
+    <link rel="stylesheet" href="newsletter-mobile.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html">
+          <img
+            src="imagens/Fotos/formula-1-logo-7.png"
+            alt="Logo da Fórmula 1"
+            class="logo"
+          />
+        </a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="equipes.html">Equipes</a>
+          <a href="pilotos.html">Pilotos</a>
+          <a href="circuitos.html">Circuitos</a>
+          <a href="newsletter.html">Newsletter</a>
+        </nav>
+      </div>
+    </header>
 
-    <!-- MENU -->
-    <table width="1000px" align="center" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <th width="20%"><a href="index.html"><img src="imagens/Fotos/formula-1-logo-7.png" alt="Logo da Fórmula 1" width="200"></a></th>
-            <th width="20%"><a href="equipes.html"><font face="Tahoma" color="#ff000"><p><b>Equipes</b></p></font></a></th>
-            <th width="20%"><a href="pilotos.html"><font face="Tahoma" color="#ff000"><p><b>Pilotos</b></p></font></a></th>
-            <th width="20%"><a href="circuitos.html"><font face="Tahoma" color="#ff000"><p><b>Circuitos</b></p></font></a></th>
-            <th bgcolor="#ff000" width="20%"><a href="#"><font face="Tahoma" color="#fff"><p><b>Newsletter</b></p></font></a></th>
-        </tr>
-        <tr height="3px" bgcolor="#ff000">
-            <td colspan="5" align="left"><font face="consolas" color="#fff">&nbsp;Home > Newsletter</font></td>
-        </tr>
-    </table>
-    <!-- FIM MENU -->
+    <main class="container">
+      <section class="banner">
+        <img
+          src="imagens/Fotos/Carros-Formula-1-2025.png"
+          alt="Carros de Fórmula 1 na pista"
+        />
+      </section>
 
-    <!-- BANNER -->
-    <table width="1000px" align="center" cellspacing="0" cellpadding="0">
-        <tr>
-            <td colspan="3" align="center">
-                <img src="imagens/Fotos/Carros-Formula-1-2025.png" alt="Carros de Fórmula 1" width="100%">
-            </td>
-        </tr>
-    </table>
-    <!-- FIM BANNER -->
+      <div class="intro">
+        <h1>Assine nossa Newsletter!</h1>
+        <p>
+          Receba as últimas notícias, análises e promoções da Fórmula 1 direto
+          no seu e-mail.
+        </p>
+      </div>
 
-    <!-- TÍTULO -->
-    <table width="1000px" align="center">
-        <tr>
-            <td align="center">
-                <h1><font color="ff000">Assine a Newsletter da F1!</font></h1>
-                <p><b>Receba as últimas notícias e eventos direto no seu e-mail.</b></p>
-            </td>
-        </tr>
-    </table>
+      <section class="form-section">
+        <form class="newsletter-form">
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="sobrenome">Sobrenome:</label>
+              <input
+                type="text"
+                id="sobrenome"
+                name="sobrenome"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="pais">País:</label>
+              <input
+                type="text"
+                id="pais"
+                name="pais"
+                class="form-control"
+                required
+              />
+            </div>
+          </fieldset>
 
-    <!-- FORMULÁRIO -->
-    <form>
-        <table width="800px" align="center" border="0" cellpadding="10" cellspacing="0">
-            <tr>
-                <th colspan="2" bgcolor="#f1f1f1"><h3>Informações Pessoais</h3></th>
-            </tr>
-            <tr>
-                <td>Nome:</td>
-                <td><input type="text" name="nome" required></td>
-            </tr>
-            <tr>
-                <td>Sobrenome:</td>
-                <td><input type="text" name="sobrenome" required></td>
-            </tr>
-            <tr>
-                <td>País:</td>
-                <td><input type="text" name="pais" required></td>
-            </tr>
-            <tr>
-                <td>Gênero:</td>
-                <td>
-                    <input type="radio" name="genero" value="masculino"> Masculino
-                    <input type="radio" name="genero" value="feminino"> Feminino
-                </td>
-            </tr>
-            <tr>
-                <td>Foto 3x4:</td>
-                <td><input type="file" name="foto" accept="image/*"></td>
-            </tr>
-            <tr>
-                <th colspan="2" bgcolor="#f1f1f1"><h3>Preferências de F1</h3></th>
-            </tr>
-            <tr>
-                <td>Equipe Favorita:</td>
-                <td><input type="text" name="equipe"></td>
-            </tr>
-            <tr>
-                <td>Piloto Favorito:</td>
-                <td><input type="text" name="piloto"></td>
-            </tr>
-            <tr>
-                <td>E-mail:</td>
-                <td><input type="email" name="email" required></td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <input type="submit" value="Enviar">
-                </td>
-            </tr>
-        </table>
-    </form>
-    <!-- FIM FORMULÁRIO -->
+          <fieldset>
+            <legend>Suas Preferências</legend>
+            <div class="form-group">
+              <label for="equipe">Equipe Favorita:</label>
+              <input
+                type="text"
+                id="equipe"
+                name="equipe"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="piloto">Piloto Favorito:</label>
+              <input
+                type="text"
+                id="piloto"
+                name="piloto"
+                class="form-control"
+              />
+            </div>
+          </fieldset>
 
-    <!-- VÍDEO -->
-    <table width="1000px" align="center" cellpadding="10">
-        <tr>
-            <td align="center">
-                <h3>📺 Vídeo em Destaque</h3>
-                <p><b>Reviva momentos históricos da F1!</b></p>
-                <iframe 
-                    width="854px" 
-                    height="480px" 
-                    src="https://www.youtube.com/embed/aoz0zigvuYs" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
-                </iframe>
-            </td>
-        </tr>
-    </table>
-    <!-- FIM VÍDEO -->
+          <fieldset>
+            <legend>Dados de Contato</legend>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+          </fieldset>
 
-    <footer align="center">
-        <p>&copy; 2025 - Página sobre Fórmula 1 por @dimitrimrs</p>
+          <button type="submit" class="submit-btn">Assinar Agora</button>
+        </form>
+      </section>
+
+      <section class="video-section">
+        <h2>📻 Vídeo em Destaque</h2>
+        <p>Essa é a Fórmula 1!</p>
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mdnF9R-Bzpg"
+            title="Vídeo de Destaque da F1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 - Página sobre Fórmula 1 por @dimitrimrs</p>
     </footer>
-
-</font>
-</body>
+  </body>
 </html>

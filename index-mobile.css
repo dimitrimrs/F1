@@ -1,67 +1,69 @@
 @media (max-width: 600px) {
-  /* ====== CONTAINER ====== */
   .container {
-    padding: 3vw; /* Reduz o padding geral para telas menores */
+    padding: 3vw;
   }
-
-  /* ====== HEADER ====== */
-  .site-header .logo {
-    width: 24vw; /* Diminui o logo ainda mais */
+  .logo {
+    width: 24vw;
   }
-
   .main-nav {
-    flex-direction: line; /* Links de navegação em linha */
-    gap: 2vw; /* Menor espaçamento */
-    align-items: center; /* Centraliza os itens */
+    flex-direction: line;
+    align-items: center;
+    gap: 2vw;
   }
-
   .main-nav a {
-    font-size: 3.2vw; /* Ajusta o tamanho da fonte para melhor leitura */
+    font-size: 3.2vw;
   }
 
-  /* ====== BANNER ====== */
   .banner img {
-    margin: 20px 0; /* Ajusta a margem do banner */
+    margin: 20px 0;
   }
 
-  /* ====== INTRO ====== */
   .intro h1 {
-    font-size: 6vw; /* Título principal menor para mobile */
+    font-size: 7vw;
   }
-
   .intro p {
-    font-size: 1rem; /* Parágrafo menor */
+    font-size: 3.8vw;
   }
 
-  /* ====== GRID DE CARDS ====== */
   .cards-grid {
-    grid-template-columns: 1fr; /* Uma coluna por card em telas pequenas */
-    gap: 25px; /* Espaçamento entre os cards */
+    display: block;
   }
-
   .card {
-    padding: 15px; /* Reduz o padding dos cards */
+    margin-bottom: 6vw;
+    padding: 4vw;
   }
-
   .card h2 {
-    font-size: 1.3rem; /* Título do card menor */
+    font-size: 6vw;
+  }
+  .card p {
+    font-size: 3.8vw;
   }
 
-  /* ====== GRID DE IMAGENS ====== */
   .images-grid {
-    grid-template-columns: 1fr; /* Uma coluna por imagem em telas pequenas */
-    gap: 15px; /* Espaçamento entre as imagens */
+    display: block;
+  }
+  .images-grid img {
+    width: 100%;
+    margin-bottom: 3.8vw;
   }
 
-  /* ====== INFORMAÇÕES ====== */
   .info-grid {
-    grid-template-columns: 1fr; /* Uma coluna por card de informação */
-    gap: 25px; /* Espaçamento entre os cards de informação */
+    display: block;
+  }
+  .info-grid .card {
+    margin-bottom: 6vw;
+    padding: 3.8vw;
+  }
+  .info-grid h2 {
+    font-size: 6vw;
+  }
+  .info-grid li {
+    font-size: 4vw;
+    margin-bottom: 2vw;
   }
 
-  /* ====== FOOTER ====== */
   .site-footer {
-    padding: 15px 0; /* Ajusta o padding do footer */
-    font-size: 0.8rem; /* Fonte menor no footer */
+    padding: 4vw 0;
+    font-size: 3vw;
   }
 }

@@ -1,50 +1,32 @@
 @media (max-width: 900px) {
-  /* ====== HEADER ====== */
-  .site-header .logo {
-    width: 150px; /* Ajuste o tamanho do logo para tablet */
+  .logo {
+    width: 150px;
   }
-
   .main-nav {
-    gap: 15px; /* Reduz o espaçamento entre os itens de navegação */
+    gap: 15px;
   }
-
   .main-nav a {
-    font-size: 0.95rem; /* Ajusta o tamanho da fonte dos links */
+    font-size: 0.95rem;
   }
 
-  /* ====== INTRO ====== */
   .intro h1 {
-    font-size: 2.2rem; /* Reduz o tamanho do título principal */
+    font-size: 2.4rem;
   }
-
   .intro p {
-    font-size: 1.1rem; /* Reduz o tamanho da fonte do parágrafo */
+    font-size: 1.15rem;
   }
 
-  /* ====== GRID DE CARDS ====== */
   .cards-grid {
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(280px, 1fr)
-    ); /* Ajusta o min-width para cards */
-    gap: 20px; /* Reduz o espaçamento entre os cards */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
-  /* ====== GRID DE IMAGENS ====== */
   .images-grid {
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(180px, 1fr)
-    ); /* Ajusta o min-width para imagens */
-    gap: 15px; /* Reduz o espaçamento entre as imagens */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
 
-  /* ====== INFORMAÇÕES ====== */
   .info-grid {
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(280px, 1fr)
-    ); /* Ajusta o min-width para cards de informação */
-    gap: 20px; /* Reduz o espaçamento entre os cards de informação */
+    grid-template-columns: 1fr;
   }
 }

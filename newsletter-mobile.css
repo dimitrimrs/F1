@@ -1,0 +1,68 @@
+@media (max-width: 600px) {
+  /* Container e Header (padrão do site) */
+  .container {
+    padding: 3vw;
+  }
+  .site-header .logo {
+    width: 24vw;
+  }
+  .main-nav {
+    flex-direction: line;
+    gap: 2vw;
+    align-items: center;
+  }
+  .main-nav a {
+    font-size: 3.2vw;
+  }
+
+  /* Banner */
+  .banner img {
+    margin: 20px 0;
+  }
+
+  /* Intro */
+  .intro h1 {
+    font-size: 7vw;
+  }
+  .intro p {
+    font-size: 3.8vw;
+  }
+
+  /* Seção do Formulário */
+  .form-section {
+    padding: 6vw;
+    border-top-width: 6px;
+  }
+
+  .newsletter-form legend {
+    font-size: 5.5vw;
+  }
+
+  .form-group label {
+    font-size: 4vw;
+  }
+
+  .form-control {
+    padding: 3.5vw;
+    font-size: 4vw;
+  }
+
+  .submit-btn {
+    padding: 4vw;
+    font-size: 4.5vw;
+  }
+
+  /* Seção de Vídeo */
+  .video-section h2 {
+    font-size: 6vw;
+  }
+  .video-section p {
+    font-size: 3.8vw;
+  }
+
+  /* Footer (padrão do site) */
+  .site-footer {
+    padding: 4vw 0;
+    font-size: 3vw;
+  }
+}

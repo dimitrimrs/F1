@@ -1,13 +1,47 @@
-.breadcrumb {
-  background-color: #ff1e1e; /* Cor da F1, replicando o vermelho do index.css */
-  color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Consistente com body do index.css */
-  padding: 8px 15px;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  font-size: 0.9rem;
+/* Reset e estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+/* HEADER */
+.site-header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+}
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto 10px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.main-nav a:hover {
+  color: #ff1e1e;
+}
 /* Introdução da página */
 .page-intro {
   text-align: center;
@@ -15,44 +49,38 @@
 }
 
 .page-intro h1 {
-  font-size: 2.8rem; /* Consistente com h1.intro do index.css*/
-  color: #d10000; /* Consistente com h1.intro do index.css*/
-  margin-bottom: 10px;
+  font-size: 3rem;
+  color: #d10000;
 }
 
 .page-intro p {
-  font-size: 1.2rem; /* Consistente com p.intro do index.css*/
-  color: #555; /* Consistente com p.intro do index.css*/
-  max-width: 700px;
-  margin: 0 auto;
+  font-size: 1.3rem;
+  color: #555;
 }
 
-/* Grid de Equipes (semelhante ao cards-grid do index.css)*/
+/* Grid de Equipes*/
 .teams-grid {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(320px, 1fr)
-  ); /* Adaptado para cards um pouco maiores */
-  gap: 30px; /* Consistente com cards-grid do index.css*/
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   margin-bottom: 60px;
 }
 
 .team-card {
-  background-color: #fff; /* Consistente com .card do index.css*/
-  border: 1px solid #ddd; /* Consistente com .card do index.css*/
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-left: 8px solid #ddd;
-  border-radius: 12px; /* Consistente com .card do index.css*/
-  padding: 20px; /* Consistente com .card do index.css*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Consistente com .card do index.css*/
-  transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transição para sombra no hover */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s; /* sombra no hover */
   display: flex;
   flex-direction: column;
 }
 
 .team-card:hover {
-  transform: translateY(-5px); /* Efeito de hover mais pronunciado */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais escura no hover */
+  transform: translateY(-5px); /* aumenta o hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* sombra escura no hover */
 }
 
 .team-header {
@@ -61,7 +89,7 @@
   gap: 15px;
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee; /* Linha divisória sutil */
+  border-bottom: 1px solid #eee;
 }
 
 .team-header img {
@@ -83,12 +111,12 @@
   gap: 15px;
   margin-top: 15px;
   margin-bottom: 20px;
-  flex-grow: 1; /* Faz com que os drivers ocupem o espaço restante verticalmente no card */
+  flex-grow: 1; /* Faz com que os pilotos ocupem o espaço restante verticalmente no card */
 }
 
 .team-drivers div {
   text-align: center;
-  flex-basis: 45%; /* Garante que dois drivers fiquem lado a lado */
+  flex-basis: 45%; /* Garante que dois pilotos fiquem lado a lado */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,7 +132,7 @@
 }
 
 .team-drivers img:hover {
-  transform: scale(1.05); /* Pequeno zoom no hover */
+  transform: scale(1.05); /* Pequeno zoom no hover do piloto */
 }
 
 .team-drivers b {
@@ -205,4 +233,13 @@
 } /* Cor da Alpine */
 .alpine .team-header h2 {
   color: #2293d1;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
 }
