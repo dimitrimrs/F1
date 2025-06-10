@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+  .teams-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+    padding: 3vw;
+  }
+
+  /* Ajustes no card da equipe */
+  .team-card {
+    padding: 2vw;
+    border-radius: 2vw;
+  }
+
+  .team-header img {
+    width: 10vw;
+  }
+
+  .team-header h2 {
+    font-size: 2.5vw;
+  }
+
+  .team-drivers img {
+    width: 8vw;
+    border-radius: 1vw;
+  }
+
+  .team-drivers b {
+    font-size: 1.5vw;
+  }
+
+  .car-image img {
+    margin-top: 2vw;
+    border-radius: 1vw;
+  }
+}

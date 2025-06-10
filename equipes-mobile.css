@@ -1,0 +1,84 @@
+@media (max-width: 600px) {
+  .container {
+    padding: 3vw; /* Reduz o padding para telas menores */
+  }
+  .logo {
+    width: 24vw;
+  }
+  .main-nav {
+    flex-direction: line;
+    align-items: center;
+    gap: 2vw;
+  }
+  .main-nav a {
+    font-size: 3.2vw;
+  }
+
+  /* Introdução da página */
+  .page-intro h1 {
+    font-size: 7vw; /* Reduz o tamanho do título principal */
+  }
+
+  .page-intro p {
+    font-size: 3.8vw; /* Reduz o tamanho do parágrafo */
+  }
+
+  /* Grid de Equipes: uma coluna por padrão em telas pequenas */
+  .teams-grid {
+    display: block;
+    /* grid-template-columns: 1fr; Força uma única coluna */
+    /* gap: 20px;  Reduz ainda mais o espaçamento */
+  }
+
+  /* Ajustes no card da equipe */
+  .team-card {
+    padding: 4vw; /* Mais redução no padding */
+    border-left: 1.5vw solid; /* Aumenta um pouco a espessura da borda lateral para destaque */
+    margin-bottom: 6vw;
+  }
+
+  .team-header {
+    flex-direction: line; /* Empilha logo e título verticalmente */
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .team-header img {
+    width: 10vw; /* Ajusta o tamanho do logo */
+  }
+
+  .team-header h2 {
+    font-size: 6vw; /* Ajusta o tamanho do título */
+  }
+
+  .team-drivers {
+    flex-direction: line;
+    gap: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+  }
+
+  /*.team-drivers div {
+    flex-basis: auto; /* Remove a largura fixa para flexibilidade 
+  }*/
+
+  .team-drivers img {
+    width: 20vw; /* Reduz ainda mais a foto do piloto */
+    height: 20vw;
+  }
+
+  .team-drivers b {
+    font-size: 3.8vw; /* Reduz o tamanho da fonte do nome do piloto */
+  }
+
+  .car-image img {
+    max-width: 100%; /* Ocupa 100% da largura disponível no card */
+    border-radius: 5px; /* Borda um pouco menor */
+  }
+
+  .site-footer {
+    padding: 4vw 0;
+    font-size: 3vw;
+  }
+}

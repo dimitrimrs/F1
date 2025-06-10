@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+  /* Header e Intro (padrão do site) */
+  .site-header .logo {
+    width: 150px;
+  }
+  .main-nav {
+    gap: 15px;
+  }
+  .main-nav a {
+    font-size: 0.95rem;
+  }
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+  .intro p {
+    font-size: 1.1rem;
+  }
+
+  /* Seção do Formulário */
+  .form-section {
+    padding: 30px;
+  }
+}

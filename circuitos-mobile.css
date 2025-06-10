@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  /* Container e Header (copiados do index-mobile.css) */
+  .container {
+    padding: 3vw;
+  }
+  .site-header .logo {
+    width: 24vw;
+  }
+  .main-nav {
+    flex-direction: line;
+    gap: 2vw;
+    align-items: center;
+  }
+  .main-nav a {
+    font-size: 3.2vw;
+  }
+
+  /* Intro */
+  .intro h1 {
+    font-size: 7vw;
+  }
+  .intro p {
+    font-size: 3.8vw;
+  }
+
+  /* Grid de Circuitos */
+  .circuits-grid {
+    grid-template-columns: 1fr; /* Uma coluna */
+    gap: 5vw;
+  }
+
+  .circuit-card {
+    padding: 5vw;
+  }
+
+  .circuit-card h3 {
+    font-size: 5.5vw;
+  }
+
+  .circuit-details p {
+    font-size: 4vw;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 4vw 0;
+    font-size: 3vw;
+  }
+}

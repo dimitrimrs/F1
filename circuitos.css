@@ -1,0 +1,129 @@
+/* Reset e estilos gerais (copiados do index.css para consistência) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ====== HEADER ====== */
+.site-header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-header .logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-nav a:hover {
+  color: #ff1e1e;
+}
+
+/* ====== INTRO ====== */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 2.8rem;
+  color: #d10000;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ====== GRID DE CIRCUITOS ====== */
+.circuits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.circuit-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 8px solid #d10000;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.circuit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.circuit-card.historic {
+  border-left-color: #555; /* Cor diferente para circuitos históricos */
+}
+
+.circuit-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.circuit-card h3 a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.circuit-card h3 a:hover {
+  color: #d10000;
+}
+
+.circuit-details p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.circuit-details strong {
+  color: #333;
+}
+
+/* ====== FOOTER ====== */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}

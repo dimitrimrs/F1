@@ -1,372 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipes</title>
-</head>
-<body bgcolor="#fff" >
-    <font face = "Tahoma">
-    <!-- MENU -->
-    <table width="1000px" align="center" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <th width="20%"><a href="/F1/index.html"><img src="/F1/imagens/Fotos/formula-1-logo-7.png" alt="Logo da Fórmula 1" width="200px"></a></th>
-            <th bgcolor="#ff000" width="20%"><a href="#"><font color="#fff"><p>Equipes</p></font></a></th>
-            <th width="20%"><a href="pilotos.html"><font face="Tahoma" color="#ff000"><p><b>Pilotos</b></p></font></a></th>
-            <th width="20%"><a href="/F1/circuitos.html"><font face="Tahoma" color="#ff000"><p><b>Circuitos</b></p></font></a></th> 
-            <th width="20%"><a href="/F1/newsletter.html"><font face="Tahoma" color="#ff000"><p><b>Newsletter</b></p></font></a></th>
-        </tr>
-        <tr height="3px" bgcolor="#ff000">
-            <td colspan="5" align="left"><font face="consolas" color="#fff">&nbsp;Home > Equipes</font></td>
-        </tr>
-    </table>
-    <!-- FIM MENU -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipes - Fórmula 1 Wiki</title>
+    <link rel="stylesheet" href="equipes.css" />
+    <link rel="stylesheet" href="equipes-tablet.css" />
+    <link rel="stylesheet" href="equipes-mobile.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="imagens/Fotos/formula-1-logo-7.png"
+          alt="Logo da Fórmula 1"
+          class="logo"
+        />
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="equipes.html" class="active">Equipes</a>
+          <a href="pilotos.html">Pilotos</a>
+          <a href="circuitos.html">Circuitos</a>
+          <a href="newsletter.html">Newsletter</a>
+        </nav>
+      </div>
+    </header>
 
-    <!-- CORPO -->
+    <main class="container">
+      <section class="page-intro">
+        <h1>EQUIPES</h1>
+        <p>Conheça as escuderias que fazem a história da Fórmula 1!</p>
+      </section>
 
-    <table width="1000px" align="center">
+      <section class="teams-grid">
+        <div class="team-card mclaren">
+          <div class="team-header">
+            <img src="imagens/equipes/mclaren-logo.avif" alt="McLaren Logo" />
+            <h2>McLaren</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/piastri.png" alt="Oscar Piastri" />
+              <b>Oscar <span>PIASTRI</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/norris.png" alt="Lando Norris" />
+              <b>Lando <span>NORRIS</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/mclaren.avif" alt="Carro McLaren" />
+          </div>
+        </div>
 
-        <tr><!-- Linha 01 -->
-            <td colspan="3">
-                <center>
-                <font color="#ff000">
-                <h1>EQUIPES</h1>
-                </font>
-                </center>
-            </td>
-        </tr>
+        <div class="team-card mercedes">
+          <div class="team-header">
+            <img src="imagens/equipes/mercedes-logo.avif" alt="Mercedes Logo" />
+            <h2>Mercedes</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img
+                src="imagens/Pilotos/george-russell-mercedes.jpg"
+                alt="George Russell"
+              />
+              <b>George <span>RUSSELL</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/antonelli.jpg" alt="Kimi Antonelli" />
+              <b>Kimi <span>ANTONELLI</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/mercedes.avif" alt="Carro Mercedes" />
+          </div>
+        </div>
 
-        <tr bgcolor="#f1f1f1"> <!-- Linha 02 -->
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/mclaren-logo.avif" alt="Mclaren" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#ff8000">McLaren</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/piastri.png" alt="Oscar Piastri" width="60px"><br>
-                            <b>Oscar <font color="black">PIASTRI</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/norris.png" alt="Lando Norris" width="60px"><br>
-                            <b>Lando <font color="black">NORRIS</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/mclaren.avif" alt="McLaren Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
+        <div class="team-card redbull">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/red-bull-racing-logo.avif"
+              alt="Red Bull Logo"
+            />
+            <h2>Red Bull</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img
+                src="imagens/Pilotos/max-verstappen-red-bull-racing.jpg"
+                alt="Max Verstappen"
+              />
+              <b>Max <span>VERSTAPPEN</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/liamlawson.jpg" alt="Liam Lawson" />
+              <b>Liam <span>LAWSON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/red-bull-racing.avif"
+              alt="Carro Red Bull"
+            />
+          </div>
+        </div>
 
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/mercedes-logo.avif" alt="Mercedes" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#808080">Mercedes</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/george-russell-mercedes.jpg" alt="George Russell" width="60px"><br>
-                            <b>George <font color="black">RUSSEL</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/antonelli.jpg" alt="Kimi Antonelli" width="60px"><br>
-                            <b>Kimi <font color="black">ANTONELLI</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/mercedes.avif" alt="Mercedes Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
+        <div class="team-card williams">
+          <div class="team-header">
+            <img src="imagens/equipes/williams-logo.avif" alt="Williams Logo" />
+            <h2>Williams</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/sainz.png" alt="Carlos Sainz" />
+              <b>Carlos <span>SAINZ</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/albon.png" alt="Alexander Albon" />
+              <b>Alexander <span>ALBON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/williams.avif" alt="Carro Williams" />
+          </div>
+        </div>
 
+        <div class="team-card ferrari">
+          <div class="team-header">
+            <img src="imagens/equipes/ferrari-logo.avif" alt="Ferrari Logo" />
+            <h2>Ferrari</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/leclerc.png" alt="Charles Leclerc" />
+              <b>Charles <span>LECLERC</span></b>
+            </div>
+            <div>
+              <img
+                src="imagens/Pilotos/lhamilton_2025.png"
+                alt="Lewis Hamilton"
+              />
+              <b>Lewis <span>HAMILTON</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/ferrari.avif" alt="Carro Ferrari" />
+          </div>
+        </div>
 
-        </tr>
+        <div class="team-card haas">
+          <div class="team-header">
+            <img src="imagens/equipes/haas-logo.avif" alt="Haas Logo" />
+            <h2>Haas</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/ocon.png" alt="Esteban Ocon" />
+              <b>Esteban <span>OCON</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/bearman.png" alt="Oliver Bearman" />
+              <b>Oliver <span>BEARMAN</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/haas.avif" alt="Carro Haas" />
+          </div>
+        </div>
 
-        <tr> <!-- Linha 03 -->
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/red-bull-racing-logo.avif" alt="RedBull" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#0000ff">RedBull</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/max-verstappen-red-bull-racing.jpg" alt="Max Verstappen" width="60px"><br>
-                            <b>Max <font color="black">VERSTAPPEN</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/liamlawson.jpg" alt="Liam Lawson" width="60px"><br>
-                            <b>Liam <font color="black">LAWSON</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/red-bull-racing.avif" alt="Redbull Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
+        <div class="team-card aston-martin">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/aston-martin-logo.avif"
+              alt="Aston Martin Logo"
+            />
+            <h2>Aston Martin</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/stroll.png" alt="Lance Stroll" />
+              <b>Lance <span>STROLL</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/alonso.png" alt="Fernando Alonso" />
+              <b>Fernando <span>ALONSO</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/aston-martin.avif"
+              alt="Carro Aston Martin"
+            />
+          </div>
+        </div>
 
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/williams-logo.avif" alt="Williams" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#3070ff">Williams</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/sainz.png" alt="Carlos Sainz" width="60px"><br>
-                            <b>Carlos <font color="black">SAINZ</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/albon.png" alt="Alexander Albon" width="60px"><br>
-                            <b>Alexander <font color="black">ALBON</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/williams.avif" alt="Williams Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+        <div class="team-card kick-sauber">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/kick-sauber-logo.avif"
+              alt="Kick Sauber Logo"
+            />
+            <h2>Kick Sauber</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/hulkenberg.png" alt="Nico Hulkenberg" />
+              <b>Nico <span>HULKENBERG</span></b>
+            </div>
+            <div>
+              <img
+                src="imagens/Pilotos/bortoleto.png"
+                alt="Gabriel Bortoleto"
+              />
+              <b>Gabriel <span>BORTOLETO</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/kick-sauber.avif"
+              alt="Carro Kick Sauber"
+            />
+          </div>
+        </div>
 
-        <tr bgcolor="#f1f1f1"> <!-- Linha 04 -->
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/ferrari-logo.avif" alt="Ferrari" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#FF0000">Ferrari</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/leclerc.png" alt="Charles Leclerc" width="60px"><br>
-                            <b>Charles <font color="black">LECLERC</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/lhamilton_2025.png" alt="Lewis Hamilton" width="60px"><br>
-                            <b>Leiws <font color="black">HAMILTON</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/ferrari.avif" alt="Ferrari Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
+        <div class="team-card racing-bulls">
+          <div class="team-header">
+            <img
+              src="imagens/equipes/racing-bulls-logo.avif"
+              alt="Racing Bulls Logo"
+            />
+            <h2>Racing Bulls</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/tsunoda.png" alt="Yuki Tsunoda" />
+              <b>Yuki <span>TSUNODA</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/hadjar.png" alt="Isack Hadjar" />
+              <b>Isack <span>HADJAR</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img
+              src="imagens/carros/racing-bulls.avif"
+              alt="Carro Racing Bulls"
+            />
+          </div>
+        </div>
 
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/haas-logo.avif" alt="Haas" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#FF3030">Haas</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/ocon.png" alt="Esteban Ocon" width="60px"><br>
-                            <b>Esteban <font color="black">OCON</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/bearman.png" alt="Oliver Bearman" width="60px"><br>
-                            <b>Oliver<font color="black">BEARMAN</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/haas.avif" alt="Haas Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+        <div class="team-card alpine">
+          <div class="team-header">
+            <img src="imagens/equipes/alpine-logo.avif" alt="Alpine Logo" />
+            <h2>Alpine</h2>
+          </div>
+          <div class="team-drivers">
+            <div>
+              <img src="imagens/Pilotos/gasly.png" alt="Pierre Gasly" />
+              <b>Pierre <span>GASLY</span></b>
+            </div>
+            <div>
+              <img src="imagens/Pilotos/dohan.png" alt="Jack Doohan" />
+              <b>Jack <span>DOOHAN</span></b>
+            </div>
+          </div>
+          <div class="car-image">
+            <img src="imagens/carros/alpine.avif" alt="Carro Alpine" />
+          </div>
+        </div>
+      </section>
+    </main>
 
-        <tr> <!-- Linha 05 -->
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/aston-martin-logo.avif" alt="Aston Martin" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#006400">Aston Martin</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/stroll.png" alt="Lance Stroll" width="60px"><br>
-                            <b>Lance <font color="black">STROLL</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/alonso.png" alt="Fernando Alonso" width="60px"><br>
-                            <b>Fernando <font color="black">ALONSO</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/aston-martin.avif" alt="Aston Martin Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/kick-sauber-logo.avif" alt="Kick Sauber" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#00FF00">Kick Sauber</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/hulkenberg.png" alt="Nico Hulkenberg" width="60px"><br>
-                            <b>Nico <font color="black">HULKENBERG</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/bortoleto.png" alt="Gabriel Bortoleto" width="60px"><br>
-                            <b>Gabriel<font color="black">BORTOLETO</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/kick-sauber.avif" alt="Kick Sauber Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-
-        <tr bgcolor="#f1f1f1"> <!-- Linha 06 -->
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/racing-bulls-logo.avif" alt="Racing Bulls" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#0000ff">Racing Bulls</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/tsunoda.png" alt="Yuki Tsunoda" width="60px"><br>
-                            <b>Yuki <font color="black">TSUNODA</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/hadjar.png" alt="Isack Hadjar" width="60px"><br>
-                            <b>Isack <font color="black">HADJAR</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/racing-bulls.avif" alt="Racing Bulls Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-            <td >
-                <table width="100%" border="0">
-                    <tr>
-                        <!-- Logo da equipe e nome -->
-                        <td width="20%">
-                            <img src="/F1/imagens/equipes/alpine-logo.avif" alt="Alpine" width="100px">
-                        </td>
-                        <td>
-                            <h2><font color="#2090ff">Alpine</font></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Fotos dos pilotos -->
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/gasly.png" alt="Perre Gasly" width="60px"><br>
-                            <b>Pierre <font color="black">GASLY</font></b>
-                        </td>
-                        <td align="center">
-                            <img src="/F1/imagens/Pilotos/dohan.png" alt="Jack Doohan" width="60px"><br>
-                            <b>Jack<font color="black">DOOHAN</font></b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Imagem do carro -->
-                        <td colspan="2" align="center">
-                            <img src="/F1/imagens/carros/alpine.avif" alt="Alpine Car" width="100%">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-
-
-    </table>
-
-    <footer align="center">
-        <p>&copy; 2025 - Página sobre Fórmula 1 por @dimitrimrs</p>
+    <footer class="site-footer">
+      <p>&copy; 2025 - Página sobre Fórmula 1 por @dimitrimrs</p>
     </footer>
-</font>
-
-    <!-- FIM CORPO -->
-</body>
+  </body>
 </html>
