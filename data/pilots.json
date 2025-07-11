@@ -1,0 +1,202 @@
+[
+    {
+        "id": "max-verstappen",
+        "name": "Max Verstappen",
+        "image": "imagens/Pilotos/max-verstappen-red-bull-racing.jpg",
+        "team": "Red Bull",
+        "nationality": "🇳🇱 Holandês",
+        "gpsWon": 64,
+        "favoriteGp": "Spa-Francorchamps",
+        "worldTitles": 4
+    },
+    {
+        "id": "liam-lawson",
+        "name": "Liam Lawson",
+        "image": "imagens/Pilotos/liamlawson.jpg",
+        "team": "Red Bull",
+        "nationality": "🇳🇿 Neozelandês",
+        "gpsWon": 0,
+        "favoriteGp": "Melbourne",
+        "worldTitles": 0
+    },
+    {
+        "id": "george-russell",
+        "name": "George Russell",
+        "image": "imagens/Pilotos/george-russell-mercedes.jpg",
+        "team": "Mercedes",
+        "nationality": "🇬🇧 Britânico",
+        "gpsWon": 3,
+        "favoriteGp": "Silverstone",
+        "worldTitles": 0
+    },
+    {
+        "id": "kimi-antonelli",
+        "name": "Andrea Kimi Antonelli",
+        "image": "imagens/Pilotos/antonelli.jpg",
+        "team": "Mercedes",
+        "nationality": "🇮🇹 Italiano",
+        "gpsWon": 0,
+        "favoriteGp": "Monza",
+        "worldTitles": 0
+    },
+    {
+        "id": "charles-leclerc",
+        "name": "Charles Leclerc",
+        "image": "imagens/Pilotos/leclerc.png",
+        "team": "Ferrari",
+        "nationality": "🇲🇨 Monegasco",
+        "gpsWon": 8,
+        "favoriteGp": "Mônaco",
+        "worldTitles": 0
+    },
+    {
+        "id": "lewis-hamilton",
+        "name": "Lewis Hamilton",
+        "image": "imagens/Pilotos/lhamilton_2025.png",
+        "team": "Ferrari",
+        "nationality": "🇬🇧 Britânico",
+        "gpsWon": 105,
+        "favoriteGp": "Silverstone",
+        "worldTitles": 7
+    },
+    {
+        "id": "lando-norris",
+        "name": "Lando Norris",
+        "image": "imagens/Pilotos/norris.png",
+        "team": "McLaren",
+        "nationality": "🇬🇧 Britânico",
+        "gpsWon": 5,
+        "favoriteGp": "Interlagos",
+        "worldTitles": 0
+    },
+    {
+        "id": "oscar-piastri",
+        "name": "Oscar Piastri",
+        "image": "imagens/Pilotos/piastri.png",
+        "team": "McLaren",
+        "nationality": "🇦🇺 Australiano",
+        "gpsWon": 3,
+        "favoriteGp": "Melbourne",
+        "worldTitles": 0
+    },
+    {
+        "id": "fernando-alonso",
+        "name": "Fernando Alonso",
+        "image": "imagens/Pilotos/alonso.png",
+        "team": "Aston Martin",
+        "nationality": "🇪🇸 Espanhol",
+        "gpsWon": 32,
+        "favoriteGp": "Mônaco",
+        "worldTitles": 2
+    },
+    {
+        "id": "lance-stroll",
+        "name": "Lance Stroll",
+        "image": "imagens/Pilotos/stroll.png",
+        "team": "Aston Martin",
+        "nationality": "🇨🇦 Canadense",
+        "gpsWon": 0,
+        "favoriteGp": "Montreal",
+        "worldTitles": 0
+    },
+    {
+        "id": "pierre-gasly",
+        "name": "Pierre Gasly",
+        "image": "imagens/Pilotos/gasly.png",
+        "team": "Alpine",
+        "nationality": "🇫🇷 Francês",
+        "gpsWon": 1,
+        "favoriteGp": "Monza",
+        "worldTitles": 0
+    },
+    {
+        "id": "jack-doohan",
+        "name": "Jack Doohan",
+        "image": "imagens/Pilotos/dohan.png",
+        "team": "Alpine",
+        "nationality": "🇦🇺 Australiano",
+        "gpsWon": 0,
+        "favoriteGp": "Melbourne",
+        "worldTitles": 0
+    },
+    {
+        "id": "alexander-albon",
+        "name": "Alexander Albon",
+        "image": "imagens/Pilotos/albon.png",
+        "team": "Williams",
+        "nationality": "🇹🇭 Tailandês",
+        "gpsWon": 0,
+        "favoriteGp": "Singapura",
+        "worldTitles": 0
+    },
+    {
+        "id": "carlos-sainz",
+        "name": "Carlos Sainz",
+        "image": "imagens/Pilotos/sainz.png",
+        "team": "Williams",
+        "nationality": "🇪🇸 Espanhol",
+        "gpsWon": 4,
+        "favoriteGp": "Silverstone",
+        "worldTitles": 0
+    },
+    {
+        "id": "nico-hulkenberg",
+        "name": "Nico Hülkenberg",
+        "image": "imagens/Pilotos/hulkenberg.png",
+        "team": "Sauber/Audi",
+        "nationality": "🇩🇪 Alemão",
+        "gpsWon": 0,
+        "favoriteGp": "Hockenheim",
+        "worldTitles": 0
+    },
+    {
+        "id": "gabriel-bortoleto",
+        "name": "Gabriel Bortoleto",
+        "image": "imagens/Pilotos/bortoleto.png",
+        "team": "Sauber/Audi",
+        "nationality": "🇧🇷 Brasileiro",
+        "gpsWon": 0,
+        "favoriteGp": "Ímola",
+        "worldTitles": 0
+    },
+    {
+        "id": "yuki-tsunoda",
+        "name": "Yuki Tsunoda",
+        "image": "imagens/Pilotos/tsunoda.png",
+        "team": "Racing Bulls",
+        "nationality": "🇯🇵 Japonês",
+        "gpsWon": 0,
+        "favoriteGp": "Suzuka",
+        "worldTitles": 0
+    },
+    {
+        "id": "isack-hadjar",
+        "name": "Isack Hadjar",
+        "image": "imagens/Pilotos/hadjar.png",
+        "team": "Racing Bulls",
+        "nationality": "🇫🇷 Francês",
+        "gpsWon": 0,
+        "favoriteGp": "Paul Ricard",
+        "worldTitles": 0
+    },
+    {
+        "id": "esteban-ocon",
+        "name": "Esteban Ocon",
+        "image": "imagens/Pilotos/ocon.png",
+        "team": "Haas",
+        "nationality": "🇫🇷 Francês",
+        "gpsWon": 1,
+        "favoriteGp": "Budapeste",
+        "worldTitles": 0
+    },
+    {
+        "id": "oliver-bearman",
+        "name": "Oliver Bearman",
+        "image": "imagens/Pilotos/bearman.png",
+        "team": "Haas",
+        "nationality": "🇬🇧 Britânico",
+        "gpsWon": 0,
+        "favoriteGp": "Silverstone",
+        "worldTitles": 0
+    }
+]

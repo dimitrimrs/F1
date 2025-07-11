@@ -1,0 +1,48 @@
+[
+    {
+        "section": "cards-grid",
+        "title": "🏁 História da Fórmula 1",
+        "content": [
+            {"type": "paragraph", "text": "<strong>Origem:</strong> Criada pela FIA em 1950, reunindo os GPs europeus."},
+            {"type": "paragraph", "text": "<strong>Primeira corrida:</strong> Silverstone, vencida por Nino Farina (Alfa Romeo)."},
+            {"type": "paragraph", "text": "<strong>Expansão:</strong> Primeira corrida fora da Europa em 1954 (Argentina). O Brasil entrou no calendário em 1972."}
+        ]
+    },
+    {
+        "section": "cards-grid",
+        "title": "🚗 Equipes Icônicas",
+        "content": [
+            {"type": "paragraph", "text": "<strong>Ferrari:</strong> A equipe mais vitoriosa da F1."},
+            {"type": "paragraph", "text": "<strong>Mercedes:</strong> Dominante na era híbrida."},
+            {"type": "paragraph", "text": "<strong>Red Bull:</strong> Revolucionou a aerodinâmica."}
+        ]
+    },
+    {
+        "section": "cards-grid",
+        "title": "🏆 Pilotos Lendários",
+        "content": [
+            {"type": "paragraph", "text": "<strong>Ayrton Senna:</strong> Tricampeão, referência na chuva."},
+            {"type": "paragraph", "text": "<strong>Michael Schumacher:</strong> 7 títulos e domínio na Ferrari."},
+            {"type": "paragraph", "text": "<strong>Lewis Hamilton:</strong> Recordista de poles e vitórias."}
+        ]
+    },
+    {
+        "section": "info-grid",
+        "title": "📌 Termos mais usados",
+        "content": [
+            {"type": "listItem", "text": "<strong>Pole position:</strong> Melhor posição no grid."},
+            {"type": "listItem", "text": "<strong>DRS:</strong> Facilita ultrapassagens."},
+            {"type": "listItem", "text": "<strong>Safety Car:</strong> Controla a corrida em incidentes."},
+            {"type": "listItem", "text": "<strong>Undercut e Overcut:</strong> Estratégias de pit stop."}
+        ]
+    },
+    {
+        "section": "info-grid",
+        "title": "📊 Estatísticas da F1",
+        "content": [
+            {"type": "listItem", "text": "<strong>Maior campeão:</strong> Schumacher & Hamilton (7 títulos)."},
+            {"type": "listItem", "text": "<strong>Corrida mais disputada:</strong> GP Brasil 2008."},
+            {"type": "listItem", "text": "<strong>Volta mais rápida:</strong> 1m18s (Monza)."}
+        ]
+    }
+]

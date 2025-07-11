@@ -1,0 +1,262 @@
+[
+    {
+        "id": "imola",
+        "name": "Imola",
+        "link": "https://www.formula1.com/en/racing/2025/EmiliaRomagna/Circuit.html",
+        "country": "🇮🇹 Itália",
+        "location": "Imola",
+        "type": "Autódromo",
+        "gpsCount": "30+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "monte-carlo",
+        "name": "Monte Carlo",
+        "link": "https://www.formula1.com/en/racing/2025/Monaco/Circuit.html",
+        "country": "🇲🇨 Mônaco",
+        "location": "Monte Carlo",
+        "type": "Circuito de Rua",
+        "gpsCount": "70+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "barcelona-catalunya",
+        "name": "Barcelona-Catalunha",
+        "link": "https://www.formula1.com/en/racing/2025/Spain/Circuit.html",
+        "country": "🇪🇸 Espanha",
+        "location": "Montmeló",
+        "type": "Autódromo",
+        "gpsCount": "30+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "gilles-villeneuve",
+        "name": "Gilles Villeneuve",
+        "link": "https://www.formula1.com/en/racing/2025/Canada/Circuit.html",
+        "country": "🇨🇦 Canadá",
+        "location": "Montreal",
+        "type": "Semiurbano",
+        "gpsCount": "40+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "spielberg",
+        "name": "Spielberg (Red Bull Ring)",
+        "link": "https://www.formula1.com/en/racing/2025/Austria/Circuit.html",
+        "country": "🇦🇹 Áustria",
+        "location": "Spielberg",
+        "type": "Autódromo",
+        "gpsCount": "30+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "silverstone",
+        "name": "Silverstone",
+        "link": "https://www.formula1.com/en/racing/2025/Great_Britain/Circuit.html",
+        "country": "🇬🇧 Reino Unido",
+        "location": "Silverstone",
+        "type": "Autódromo",
+        "gpsCount": "50+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "monza",
+        "name": "Monza",
+        "link": "https://www.formula1.com/en/racing/2025/Italy/Circuit.html",
+        "country": "🇮🇹 Itália",
+        "location": "Monza",
+        "type": "Autódromo",
+        "gpsCount": "70+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "spa-francorchamps",
+        "name": "Spa-Francorchamps",
+        "link": "https://www.formula1.com/en/racing/2025/Belgium/Circuit.html",
+        "country": "🇧🇪 Bélgica",
+        "location": "Stavelot",
+        "type": "Autódromo",
+        "gpsCount": "50+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "hungaroring",
+        "name": "Hungaroring",
+        "link": "https://www.formula1.com/en/racing/2025/Hungary/Circuit.html",
+        "country": "🇭🇺 Hungria",
+        "location": "Mogyoród",
+        "type": "Autódromo",
+        "gpsCount": "35+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "zandvoort",
+        "name": "Zandvoort",
+        "link": "https://www.formula1.com/en/racing/2025/Netherlands/Circuit.html",
+        "country": "🇳🇱 Países Baixos",
+        "location": "Zandvoort",
+        "type": "Autódromo",
+        "gpsCount": "30+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "albert-park",
+        "name": "Albert Park",
+        "link": "https://www.formula1.com/en/racing/2025/Australia/Circuit.html",
+        "country": "🇦🇺 Austrália",
+        "location": "Melbourne",
+        "type": "Circuito de Rua",
+        "gpsCount": "25+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "shanghai-international",
+        "name": "Shanghai International",
+        "link": "https://www.formula1.com/en/racing/2025/China/Circuit.html",
+        "country": "🇨🇳 China",
+        "location": "Xangai",
+        "type": "Autódromo",
+        "gpsCount": "16",
+        "in2025Calendar": true
+    },
+    {
+        "id": "suzuka",
+        "name": "Suzuka",
+        "link": "https://www.formula1.com/en/racing/2025/Japan/Circuit.html",
+        "country": "🇯🇵 Japão",
+        "location": "Suzuka",
+        "type": "Autódromo",
+        "gpsCount": "30+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "bahrain-international",
+        "name": "Bahrain International",
+        "link": "https://www.formula1.com/en/racing/2025/Bahrain/Circuit.html",
+        "country": "🇧🇭 Bahrein",
+        "location": "Sakhir",
+        "type": "Autódromo",
+        "gpsCount": "20+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "jeddah-corniche",
+        "name": "Jeddah Corniche",
+        "link": "https://www.formula1.com/en/racing/2025/Saudi_Arabia/Circuit.html",
+        "country": "🇸🇦 Arábia Saudita",
+        "location": "Jeddah",
+        "type": "Circuito de Rua",
+        "gpsCount": "5",
+        "in2025Calendar": true
+    },
+    {
+        "id": "miami-international-autodrome",
+        "name": "Miami International Autodrome",
+        "link": "https://www.formula1.com/en/racing/2025/Miami/Circuit.html",
+        "country": "🇺🇸 EUA",
+        "location": "Miami",
+        "type": "Circuito Temporário",
+        "gpsCount": "3",
+        "in2025Calendar": true
+    },
+    {
+        "id": "baku-city-circuit",
+        "name": "Baku City Circuit",
+        "link": "https://www.formula1.com/en/racing/2025/Azerbaijan/Circuit.html",
+        "country": "🇦🇿 Azerbaijão",
+        "location": "Baku",
+        "type": "Circuito de Rua",
+        "gpsCount": "7",
+        "in2025Calendar": true
+    },
+    {
+        "id": "marina-bay-street-circuit",
+        "name": "Marina Bay Street Circuit",
+        "link": "https://www.formula1.com/en/racing/2025/Singapore/Circuit.html",
+        "country": "🇸🇬 Singapura",
+        "location": "Marina Bay",
+        "type": "Circuito de Rua",
+        "gpsCount": "13",
+        "in2025Calendar": true
+    },
+    {
+        "id": "circuit-of-the-americas",
+        "name": "Circuit of the Americas",
+        "link": "https://www.formula1.com/en/racing/2025/United_States/Circuit.html",
+        "country": "🇺🇸 Estados Unidos",
+        "location": "Austin, Texas",
+        "type": "Autódromo",
+        "gpsCount": "11",
+        "in2025Calendar": true
+    },
+    {
+        "id": "autodromo-hermanos-rodriguez",
+        "name": "Autódromo Hermanos Rodríguez",
+        "link": "https://www.formula1.com/en/racing/2025/Mexico/Circuit.html",
+        "country": "🇲🇽 México",
+        "location": "Cidade do México",
+        "type": "Autódromo",
+        "gpsCount": "20+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "interlagos",
+        "name": "Interlagos",
+        "link": "https://www.formula1.com/en/racing/2025/Brazil/Circuit.html",
+        "country": "🇧🇷 Brasil",
+        "location": "São Paulo",
+        "type": "Autódromo",
+        "gpsCount": "50+",
+        "in2025Calendar": true
+    },
+    {
+        "id": "las-vegas-strip-circuit",
+        "name": "Las Vegas Strip Circuit",
+        "link": "https://www.formula1.com/en/racing/2025/Las_Vegas/Circuit.html",
+        "country": "🇺🇸 Estados Unidos",
+        "location": "Las Vegas",
+        "type": "Circuito de Rua",
+        "gpsCount": "2",
+        "in2025Calendar": true
+    },
+    {
+        "id": "lusail-international-circuit",
+        "name": "Lusail International Circuit",
+        "link": "https://www.formula1.com/en/racing/2025/Qatar/Circuit.html",
+        "country": "🇶🇦 Catar",
+        "location": "Lusail",
+        "type": "Autódromo",
+        "gpsCount": "3",
+        "in2025Calendar": true
+    },
+    {
+        "id": "yas-marina",
+        "name": "Yas Marina",
+        "link": "https://www.formula1.com/en/racing/2025/Abu_Dhabi/Circuit.html",
+        "country": "🇦🇪 Emirados Árabes Unidos",
+        "location": "Abu Dhabi",
+        "type": "Autódromo",
+        "gpsCount": "15",
+        "in2025Calendar": true
+    },
+    {
+        "id": "nurburgring",
+        "name": "Nürburgring",
+        "link": "https://www.nuerburgring.de/en/",
+        "country": "🇩🇪 Alemanha",
+        "location": "Nürburg",
+        "type": "Autódromo",
+        "gpsCount": "40",
+        "in2025Calendar": false
+    },
+    {
+        "id": "indianapolis",
+        "name": "Indianapolis Motor Speedway",
+        "link": "#",
+        "country": "🇺🇸 EUA",
+        "location": "Indianapolis",
+        "type": "Autódromo",
+        "gpsCount": "8",
+        "in2025Calendar": false
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "mclaren",
+        "name": "McLaren",
+        "logo": "imagens/equipes/mclaren-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Oscar",
+                "lastName": "PIASTRI",
+                "image": "imagens/Pilotos/piastri.png"
+            },
+            {
+                "firstName": "Lando",
+                "lastName": "NORRIS",
+                "image": "imagens/Pilotos/norris.png"
+            }
+        ],
+        "carImage": "imagens/carros/mclaren.avif"
+    },
+    {
+        "id": "mercedes",
+        "name": "Mercedes",
+        "logo": "imagens/equipes/mercedes-logo.avif",
+        "drivers": [
+            {
+                "firstName": "George",
+                "lastName": "RUSSELL",
+                "image": "imagens/Pilotos/george-russell-mercedes.jpg"
+            },
+            {
+                "firstName": "Kimi",
+                "lastName": "ANTONELLI",
+                "image": "imagens/Pilotos/antonelli.jpg"
+            }
+        ],
+        "carImage": "imagens/carros/mercedes.avif"
+    },
+    {
+        "id": "redbull",
+        "name": "Red Bull",
+        "logo": "imagens/equipes/red-bull-racing-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Max",
+                "lastName": "VERSTAPPEN",
+                "image": "imagens/Pilotos/max-verstappen-red-bull-racing.jpg"
+            },
+            {
+                "firstName": "Liam",
+                "lastName": "LAWSON",
+                "image": "imagens/Pilotos/liamlawson.jpg"
+            }
+        ],
+        "carImage": "imagens/carros/red-bull-racing.avif"
+    },
+    {
+        "id": "williams",
+        "name": "Williams",
+        "logo": "imagens/equipes/williams-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Carlos",
+                "lastName": "SAINZ",
+                "image": "imagens/Pilotos/sainz.png"
+            },
+            {
+                "firstName": "Alexander",
+                "lastName": "ALBON",
+                "image": "imagens/Pilotos/albon.png"
+            }
+        ],
+        "carImage": "imagens/carros/williams.avif"
+    },
+    {
+        "id": "ferrari",
+        "name": "Ferrari",
+        "logo": "imagens/equipes/ferrari-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Charles",
+                "lastName": "LECLERC",
+                "image": "imagens/Pilotos/leclerc.png"
+            },
+            {
+                "firstName": "Lewis",
+                "lastName": "HAMILTON",
+                "image": "imagens/Pilotos/lhamilton_2025.png"
+            }
+        ],
+        "carImage": "imagens/carros/ferrari.avif"
+    },
+    {
+        "id": "haas",
+        "name": "Haas",
+        "logo": "imagens/equipes/haas-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Esteban",
+                "lastName": "OCON",
+                "image": "imagens/Pilotos/ocon.png"
+            },
+            {
+                "firstName": "Oliver",
+                "lastName": "BEARMAN",
+                "image": "imagens/Pilotos/bearman.png"
+            }
+        ],
+        "carImage": "imagens/carros/haas.avif"
+    },
+    {
+        "id": "aston-martin",
+        "name": "Aston Martin",
+        "logo": "imagens/equipes/aston-martin-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Lance",
+                "lastName": "STROLL",
+                "image": "imagens/Pilotos/stroll.png"
+            },
+            {
+                "firstName": "Fernando",
+                "lastName": "ALONSO",
+                "image": "imagens/Pilotos/alonso.png"
+            }
+        ],
+        "carImage": "imagens/carros/aston-martin.avif"
+    },
+    {
+        "id": "kick-sauber",
+        "name": "Kick Sauber",
+        "logo": "imagens/equipes/kick-sauber-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Nico",
+                "lastName": "HULKENBERG",
+                "image": "imagens/Pilotos/hulkenberg.png"
+            },
+            {
+                "firstName": "Gabriel",
+                "lastName": "BORTOLETO",
+                "image": "imagens/Pilotos/bortoleto.png"
+            }
+        ],
+        "carImage": "imagens/carros/kick-sauber.avif"
+    },
+    {
+        "id": "racing-bulls",
+        "name": "Racing Bulls",
+        "logo": "imagens/equipes/racing-bulls-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Yuki",
+                "lastName": "TSUNODA",
+                "image": "imagens/Pilotos/tsunoda.png"
+            },
+            {
+                "firstName": "Isack",
+                "lastName": "HADJAR",
+                "image": "imagens/Pilotos/hadjar.png"
+            }
+        ],
+        "carImage": "imagens/carros/racing-bulls.avif"
+    },
+    {
+        "id": "alpine",
+        "name": "Alpine",
+        "logo": "imagens/equipes/alpine-logo.avif",
+        "drivers": [
+            {
+                "firstName": "Pierre",
+                "lastName": "GASLY",
+                "image": "imagens/Pilotos/gasly.png"
+            },
+            {
+                "firstName": "Jack",
+                "lastName": "DOOHAN",
+                "image": "imagens/Pilotos/dohan.png"
+            }
+        ],
+        "carImage": "imagens/carros/alpine.avif"
+    }
+]
